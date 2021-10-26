@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.body .grid-container {
+  width: 500px;
+  height: 500px;
+  border: 5px black solid;
+  display: inline-grid;
+  list-style: none;
+}
+
+.body .grid-container .square {
+  border: solid black .5px;
+  width: auto;
+  height: auto;
+}
+
+.body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.body .button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.body .button-box button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.body .button-box .black {
+  background-color: black;
+}
+
+.body .button-box .red {
+  background-color: red;
+}
+
+.body .button-box .blue {
+  background-color: blue;
+}
+
+.body .button-box .green {
+  background-color: green;
+}
+
+.body .button-box .clear {
+  color: black; 
+}
+
+.body .container .grid-slider {
+  display: flex;
+  flex-direction: column;
+}
